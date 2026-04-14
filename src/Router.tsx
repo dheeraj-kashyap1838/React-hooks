@@ -5,6 +5,7 @@ import UseStateBeginner from "./Hooks/UseState/UseStateBeginner";
 import UseStateIntermidiate from "./Hooks/UseState/UseStateIntermidiate";
 import UseStateAdvance from "./Hooks/UseState/UseStateAdvance";
 import UseEffectBeginner from "./Hooks/UseEffect/UseEffectBeginner";
+import UseEffectIntermidiate from "./Hooks/UseEffect/UseEffectIntermidiate";
 import UseEffectAdvance from "./Hooks/UseEffect/UseEffectAdvance";
 
 function Router() {
@@ -13,10 +14,15 @@ function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/usestate/beginner" element={<UseStateBeginner />} />
-        <Route path="/usestate/intermidiate" element={<UseStateIntermidiate />} />
+        <Route
+          path="/usestate/intermidiate"
+          element={<UseStateIntermidiate />}
+        />
         <Route path="/usestate/advance" element={<UseStateAdvance />} />
         <Route path="/useeffect/beginner" element={<UseEffectBeginner />} />
         <Route path="/useeffect/advance" element={<UseEffectAdvance />} />
+        <Route path="/useeffect/intermidiate" element={<UseEffectIntermidiate />}
+        />
       </Routes>
     </BrowserRouter>
   );
