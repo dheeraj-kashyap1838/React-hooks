@@ -17,7 +17,7 @@ const UseEffectAdvance = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+    <div className="min-h-screen flex items-center justify-center bg-black">
       <div className="bg-white shadow-2xl rounded-2xl p-8 w-105 text-center">
         <h1 className="text-2xl font-semibold text-gray-700 mb-4">
           Screen Width Tracker
