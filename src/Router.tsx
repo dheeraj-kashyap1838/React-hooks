@@ -10,6 +10,8 @@ import UseEffectAdvance from "./Hooks/UseEffect/UseEffectAdvance";
 import UseContextBeginner from "./Hooks/UseContext/UseContextBeginner";
 import UseContextIntermidiate from "./Hooks/UseContext/UseContextIntermidiate";
 import UseContextAdvance from "./Hooks/UseContext/UseContextAdvance";
+import UseRefBeginner from "./Hooks/UseRef/UseRefBeginner";
+import UseRefIntermidiate from "./Hooks/UseRef/UseRefIntermidiate";
 
 function Router() {
   return (
@@ -28,6 +30,8 @@ function Router() {
         <Route path="/usecontext/beginner" element={<UseContextBeginner />}/>
         <Route path="/usecontext/intermidiate" element={<UseContextIntermidiate />}/>
         <Route path="/usecontext/advance" element={<UseContextAdvance />}/>
+        <Route path="/useref/beginner" element={<UseRefBeginner />}/>
+        <Route path="/useref/intermidiate" element={<UseRefIntermidiate />}/>
       </Routes>
     </BrowserRouter>
   );
