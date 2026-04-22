@@ -12,6 +12,9 @@ import UseContextIntermidiate from "./Hooks/UseContext/UseContextIntermidiate";
 import UseContextAdvance from "./Hooks/UseContext/UseContextAdvance";
 import UseRefBeginner from "./Hooks/UseRef/UseRefBeginner";
 import UseRefIntermidiate from "./Hooks/UseRef/UseRefIntermidiate";
+import UseCallbackBeginner from "./Hooks/UseCallback/UseCallbackBeginner";
+import UseCallbackIntermidiate from "./Hooks/UseCallback/UseCallbackIntermidiate";
+import UseCallbackAdvance from "./Hooks/UseCallback/UseCallbackAdvance";
 
 function Router() {
   return (
@@ -32,6 +35,9 @@ function Router() {
         <Route path="/usecontext/advance" element={<UseContextAdvance />}/>
         <Route path="/useref/beginner" element={<UseRefBeginner />}/>
         <Route path="/useref/intermidiate" element={<UseRefIntermidiate />}/>
+        <Route path="/usecallback/beginner" element={<UseCallbackBeginner />}/>
+        <Route path="/usecallback/intermidiate" element={<UseCallbackIntermidiate />}/>
+        <Route path="/usecallback/advance" element={<UseCallbackAdvance />}/>
       </Routes>
     </BrowserRouter>
   );
