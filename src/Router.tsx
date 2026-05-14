@@ -17,6 +17,7 @@ import UseCallbackIntermidiate from "./Hooks/UseCallback/UseCallbackIntermidiate
 import UseCallbackAdvance from "./Hooks/UseCallback/UseCallbackAdvance";
 import UseDeferredValueBeginner from "./Hooks/UseDeferredValue/UseDeferredValueBeginner";
 import Debounce from "./Debounce/Debounce";
+import SetInterval from "./SetInterval/SetInterval";
 
 function Router() {
   return (
@@ -42,6 +43,7 @@ function Router() {
         <Route path="/usecallback/advance" element={<UseCallbackAdvance />}/>
         <Route path="/usedeferredvalue/beginner" element={<UseDeferredValueBeginner />}/>
         <Route path="/debounce" element={<Debounce />}/>
+        <Route path="/setinterval" element={<SetInterval />}/>
       </Routes>
     </BrowserRouter>
   );
